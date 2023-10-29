@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+scroll-behavior: smooth;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #031540;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
+}
+
+.Home {
+    height: 100vh;
+    background: linear-gradient(-90deg, #2506be 65%, #0ce89e 35%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.Home-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background: #3a08d1;
+    border-radius: 50%;
+    border: 25px solid #fff;
+    outline: 25px solid #031540;
+}
+
+.Home-image img {
+    max-width: 100%;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.Home-content {
+    max-width: 600px;
+    color: #fff;
+    text-align: right;
+}
+
+.Home-content h1 {
+    font-size: 55px;
+    line-height: 1.2;
+}
+.Home-content h3 {
+  font-size: 40px;
+  color: transparent;
+  -webkit-text-stroke: 0.5px #fff;
+  background-image: linear-gradient(#00abf0, #00abf0);
+  background-repeat: no-repeat;
+  background-clip: text;
+  background-position: -410px 0;
+  animation: animatetext 6s linear infinite;
+}
+
+
+.Home-content p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.Home-sci {
+    margin: 25px 0 40px;
+}
+
+.Home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    margin-left: 12px;
+    transition: 0.5s;
+}
+
+.Home-sci a:hover {
+    background: #00abf0;
+    color: #e32b2b;
+    border-color: #00abf0;
+    box-shadow: 0 0 10px #00abf0;
+}
+
+.btn {
+    padding: 12px 35px;
+    background: #00abf0;
+    border-radius: 40px;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px #00abf0;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+/* Add this CSS to style the circular image container */
+.image-container {
+    width: 500px;
+    height: 500px;
+    background: #3a08d1;
+    border-radius: 50%;
+    border: 25px solid #fff;
+    outline: 25px solid #031540;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img{
+    max-width:100;
+    height: auto;
+    display: block;
+}
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #cedb19;
+  }
+  
+  .about img{
+    height: auto;
+    width: 430px;
+  }
+  
+  .about-text{
+    width: 550px;
+    
+  }
+  
+  .main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .about-text h2{
+    color: rgb(8, 7, 7);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  
+  .about-text h5{
+    color: rgb(14, 13, 13);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+  }
+  
+  .about-text p{
+    color: #010000;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+  }
+  
+  button{
+    background-color: #f9004d;
+    color: rgb(5, 4, 4);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+  }
+  
+  button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+  }
+  .service{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+  }
+  
+  
+  .title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+  }
+  
+  .card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #dc82d1;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+  }
+  
+  h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+  }
+  
+  .pra p{
+    color: #fcfcfc;
+    font-size: 16px; /* Fix: Changed font size to 16px */
+    line-height: 27px;
+    margin-bottom: 25px;
+  }
+  
+  .card .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+  }
+  
+  .card .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+  }
+
+
+  .contact-me{
+    width: 100%;
+    height: 290px;
+    background:#dc82d1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .contact-me p{
+    color: rgb(8, 7, 7);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  
+  .contact-me .button-two{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+  }
+  
+  .contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+  }
+  
+  footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+    
+  }
+  
+  /* Animation for the Subscribe button */
+  .newsletter form button {
+    background-color: #f9004d;
+    color: rgb(243, 9, 9);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: transform 0.4s, background-color 0.4s; /* Added background-color transition */
+  }
+  
+  .newsletter form button:hover {
+    transform: scale(1.1);
+    background-color: #d60042; /* Change the background color on hover */
+    cursor: pointer;
+  }
